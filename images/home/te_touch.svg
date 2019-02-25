@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>te-touch </title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="状态" transform="translate(-240.000000, -599.000000)">
+            <g id="te-touch-" transform="translate(240.000000, 599.000000)">
+                <circle id="Oval" fill="#D6D6FF" cx="10" cy="10" r="10"></circle>
+                <path d="M7.8767879,13.8621402 L8.06161179,11.2982896 L13.1323243,7.1040808 C13.3568016,6.9162494 13.0861521,6.82531684 12.7889832,6.98894572 L6.52988504,10.6195182 L3.82288728,9.83156036 C3.24183812,9.68000609 3.23526144,9.31029182 3.95490434,9.04360248 L14.4990345,5.31009382 C14.9810274,5.11004574 15.4432128,5.41913831 15.2583309,6.09798067 L13.4624346,13.8621402 C13.3370136,14.4136486 12.9738651,14.5470377 12.4720842,14.2924762 L9.73864435,12.4377788 L8.42476026,13.6075788 C8.27295515,13.7469341 8.14745673,13.8621402 7.8767879,13.8621402 Z" id="Fill-1" fill="#212124"></path>
+            </g>
+        </g>
+    </g>
+</svg>

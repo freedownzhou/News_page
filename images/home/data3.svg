@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>03</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="妙链官网-首页" transform="translate(-799.000000, -2481.000000)">
+            <g id="产品3" transform="translate(212.000000, 2482.000000)">
+                <g id="文字" transform="translate(588.000000, 0.000000)">
+                    <g id="03">
+                        <text font-family="PingFangSC-Medium, PingFang SC" font-size="13" font-weight="400" fill="#0B85EF">
+                            <tspan x="17.4000244" y="32.5">03</tspan>
+                        </text>
+                        <circle id="Oval-12" stroke="#B1D7FC" cx="24" cy="24" r="24"></circle>
+                        <g id="Group-19" transform="translate(11.500000, 11.000000)" stroke="#B1D7FC">
+                            <path d="M1.7472,3.86666667 C1.00316199,3.86666667 0.4,4.46982865 0.4,5.21386667 L0.4,22 C0.4,23.9882251 2.0117749,25.6 4,25.6 L22,25.6 C23.9882251,25.6 25.6,23.9882251 25.6,22 L25.6,5.21386667 C25.6,4.46982865 24.996838,3.86666667 24.2528,3.86666667 L1.7472,3.86666667 Z" id="Rectangle-12" stroke-width="0.8"></path>
+                            <rect id="Rectangle-13" stroke-width="1.7472" x="7.80693333" y="0.8736" width="1" height="5.18613333" rx="0.5"></rect>
+                            <rect id="Rectangle-13-Copy" stroke-width="1.7472" x="18.2069333" y="0.8736" width="1" height="5.18613333" rx="0.5"></rect>
+                            <path d="M12.9896983,-3.65122841 L13.2396983,-3.65122841 L12.9896983,-3.9012284 L12.9896983,-4.10122841 L12.8896983,-4.0012284 L12.7896983,-4.10122841 L12.7896983,-3.9012284 L12.5396983,-3.65122841 L12.7896983,-3.65122841 L12.7896983,20.9845617 L12.5396983,20.9845617 L12.7896983,21.2345617 L12.7896983,21.4345617 L12.8896983,21.3345617 L12.9896983,21.4345617 L12.9896983,21.2345617 L13.2396983,20.9845617 L12.9896983,20.9845617 L12.9896983,-3.65122841 Z" id="Rectangle-13-Copy-2" stroke-width="0.9" transform="translate(13.039698, 8.666667) rotate(-270.000000) translate(-13.039698, -8.666667) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

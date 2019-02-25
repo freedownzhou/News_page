@@ -1,0 +1,225 @@
+a{cursor: pointer;text-decoration: none;color:inherit;}
+.text_center{
+	text-align: center;
+}
+.text_left{
+	text-align: left;
+}
+/*关于我们页面的公共样式*/
+.box_size{
+  width: 100%;
+  height: auto;
+  margin-left: 52px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.top_box{
+  width: 960px;
+  height: auto;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.middle_box{
+  width:100%;
+  height: auto;
+}
+/*下面是顶部文字*/
+.top_font{
+  font-family:PingFangSC-Medium;
+  font-size:24px;
+  color:#333333;
+  letter-spacing:0.67px;
+}
+/*二级标题*/
+.two_span{
+  font-family:PingFangSC-Regular;
+  font-size:20px;
+  color:#333333;
+  letter-spacing:0.84px;
+  margin-bottom: 10px;
+}
+/*三级标题*/
+.three_span{
+  font-family:PingFangSC-Regular;
+  font-size:14px;
+  color:#666666;
+  letter-spacing:0.39px;
+  line-height:22px;
+}
+/*其他*/
+.last_p{
+  margin-bottom: 0;
+}
+
+/*首页和产品介绍的公共样式*/
+/*页面盒子*/
+.home_Product_box{
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+/*页面顶部盒子*/
+.home_Product_top_box{
+  width: 100%;
+  height: 640px;
+  position: relative;
+  background: #0b85ef;
+}
+/*顶部文字*/
+.home_one_span{
+  font-family:PingFangSC-Medium;
+  font-size:36px;
+  color:#ffffff;
+  text-align:left;
+  margin-bottom: 0;
+  margin-top: 0px;
+  position: relative;
+  top: 271px;
+  margin-left: 12.5%;
+}
+.home_two_span{
+  font-family:PingFangSC-Regular;
+  font-size:26px;
+  color:#e8f5ff;
+  margin-left: 12.5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align:left;
+  position: relative;
+  top: 284px;
+}
+.home_three_span{
+  font-family:PingFangSC-Regular;
+  font-size:18px;
+  color:#cee8ff;
+  margin-top: 0;
+  margin-left: 12.5%;
+  text-align:left;
+  position: relative;
+  top: 287px;
+}
+/*我们的产品盒子*/
+.Our_products{
+  width: 100%;
+  height: 535px;
+  position: relative;
+}
+
+/*我们的产品文字*/
+.Our_products_onespan{
+  font-family:PingFangSC-Regular;
+  font-size:24px;
+  color:#333333;
+}
+.Our_products_twospan{
+  font-family:PingFangSC-Regular;
+  font-size:16px;
+  color:#666666;
+  letter-spacing:0;
+  line-height:25px;
+  text-align:left;
+}
+.Our_products_threespan{
+  font-family:PingFangSC-Regular;
+  font-size:28px;
+  color:#333333;
+  text-align:center;
+}
+
+/*首页每个模块的居中文字*/
+.module_topspan{
+  font-family:PingFangSC-Regular;
+  font-size:28px;
+  color:#333333;
+  text-align:center;
+  padding-top: 56px;
+}
+.module_twospan{
+  font-family:ArialMT;
+  font-size:16px;
+  color:#666666;
+  text-align:center;
+}
+/*解决方案的3个盒子*/
+.module_smallbox{
+  width: 370px;
+  height: auto;
+  background-color: #ffffff;
+  display: inline-block;
+}
+.solve_span{
+  font-family:PingFangSC-Regular;
+  font-size:20px;
+  color:#333333;
+  text-align:left;
+}
+/*全球布局*/
+.home_Product_lastspan{
+  font-family:ArialMT;
+  font-size:14px;
+  color:#333333;
+  text-align:center;
+}
+
+
+
+/*团队介绍和加入我们公共样式*/
+  /*顶部盒子*/
+  .team_topbox{
+    width: 100%;
+    height: 350px;
+  }
+  .team_topimg{
+  	position: absolute;
+  	width: 100%;
+  	height: 350px;
+  	left: 0;
+  	top: 0;
+  }
+
+ /*白色小圆点*/
+  .team_topbox ul{
+    width: 75px;
+    height: 10px;
+    margin-left: 115px;
+	position: absolute;
+	top: 185px;
+  }
+  .team_topbox ul li{
+    background: #ffffff;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    float: left;
+    list-style:none;
+     z-index: 11;
+    margin-left: 5px;
+  }
+  /*头部盒子文字*/
+  .team_topbox p{
+  	position: absolute;
+  	top: 222px;
+  }
+  .team_onespan{
+    font-family:PingFangSC-Medium;
+    font-size:36px;
+    color:#ffffff;
+    text-align:left;
+    margin-left: 115px;
+  }
+  .team_twospan{
+    font-family:PingFangSC-Regular;
+	font-size:16px;
+	color:#ffffff;
+	text-align:left;
+    margin-left: 115px;
+  }
+/*head的a标签图片*/
+.warp_headimg{
+  height: 83px;
+  width: 103px;
+  display: inline-block;
+}

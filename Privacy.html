@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head class="head">
+		<meta charset="UTF-8">
+		<title>妙链-全球区块链技术服务商</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<link rel="icon" href="http://miaolian-webapp.oss-cn-beijing.aliyuncs.com/images/title.png" type="image/x-icon" />
+		<link rel="stylesheet" href="css/publicCss.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/headertwo.css" />
+		<link rel="stylesheet" href="css/font_box_chose.css" />
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/Privacy.css" />
+	</head>
+	<style>
+		/*响应式*/
+		/*!*wap端*!*/
+		/*@media (max-width:767px){
+
+    }*/
+		/*!*ipad端*!*/
+		/*@media (min-width:768px){
+    .texttop_box{
+            height: 364px;
+        }
+        .texttop_rightbox {
+        width: 45%;
+
+        }
+        .texttop_box {
+        width: 94%;
+        height: 510px;
+        padding: 34px 24px;
+        background-color: #f6fafd;
+        position: relative;
+    }
+    #Privacy_box ul {
+        list-style: none;
+        width: 275px;
+        padding-top: 150px;
+        padding-left: 20%;
+    }
+    .left_span{
+        left: 68px;
+    }
+    }*/
+		/*!*PC端*!*/
+		/*@media (min-width:1024px){
+    body{
+          min-width: 1024px;
+          height: 100%;
+        }
+        .texttop_box{
+            height: 364px;
+
+        }
+        #Privacy_box  ul{
+        list-style:none;
+        width: 275px;
+        height: auto;
+        padding-top: 150px;
+        padding-left: 37%;
+      }
+    }*/
+	</style>
+
+	<body>
+		<!--header-->
+		<div id="headertwo"></div>
+
+		<!--content-->
+		<div class="Privacy_allbox">
+			<div id="Privacy_box">
+				<span class="left_span">关于我们</span>
+				<ul class="pb10">
+					<li class="Privacy_box_active" onclick="goTo('1')">
+						<span>公司简介</span>
+					</li>
+					<li onclick="goTo('2')">
+						<span>联系我们</span>
+					</li>
+				</ul>
+			</div>
+			<div class="bh-account_router"></div>
+		</div>
+
+		<!--footer-->
+		<div id="footer"></div>
+	</body>
+
+</html>
+<script type="text/javascript" src="js/Privacy.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=k0ZKaOMyaZNEWpbhAuGKG0M1FVHAw6YK&width=300&height=200"></script>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/include.js"></script>
+<script>
+	window.onload = function() {
+		var search = location.search;
+		var ai = document.getElementById("Privacy_box").getElementsByTagName("li");
+		if(search.substring(6) == 2) {
+			ai[0].classList.remove("Privacy_box_active");
+			ai[1].classList.add("Privacy_box_active");
+			$(function() {
+				$(".bh-account_router").load("dialog/contact.html");
+			});
+		} else {
+			$(function() {
+				$(".bh-account_router").load("dialog/Introduction.html");
+			});
+		}
+	};
+	$(document).scroll(function() {
+		var theone = document.getElementById('Privacy_box').getBoundingClientRect().top;
+		if(theone < -90) {
+			document.getElementById("headertwo").style.boxShadow = "0 1px 8px 0 #d9d9d9";
+		} else {
+			document.getElementById("headertwo").style.boxShadow = "0 0px 0px 0 #d9d9d9";
+		}
+	});
+</script>

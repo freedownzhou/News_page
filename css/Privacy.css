@@ -1,0 +1,99 @@
+  .Privacy_allbox{
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 555px;
+     padding-bottom: 90px;
+    background-color: #FFF;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+  }
+ 
+  /*内容*/
+  #Privacy_box{
+    width: 20%;
+    height: auto;
+    position: relative;
+     float: left;
+     overflow: hidden;
+  }
+  .left_span{
+    font-family:PingFangSC-Regular;
+    font-size:14px;
+    color:#999999;
+    letter-spacing:0.39px;
+    text-align:left;
+    display: block;
+    position: absolute;
+    left: 115px;
+    top: 110px;
+  }
+	 *{
+	 	padding: 0;
+	 	margin: 0;
+	 }
+  /*菜单*/
+  #Privacy_box  ul{
+    list-style:none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: auto;
+    padding-top: 150px;
+    padding-left: 83px;
+  }
+  .cssmenu > ul > li > a{	   
+		    transition: all 0.3s;		   
+		  }
+  /*鼠标滑过*/
+  #Privacy_box li {
+    min-height: 45px;
+    max-height: 70px;
+    line-height: 45px;
+    text-align: left;
+    color:#666666;
+    width: 100%;
+    cursor: pointer;
+    border-left: 2px solid transparent;
+    transition: all 0.4s;
+  }
+  #Privacy_box li span{
+    font-family:PingFangSC-Regular;
+    font-size:16px;
+    letter-spacing:0.45px;
+    margin-left: 48px;
+  }
+  #Privacy_box li:hover {
+    background-color: #f0f4ff;
+  }
+  /*被选中*/
+  #Privacy_box .Privacy_box_active {
+    background-color: #f0f4ff;
+    border-left: 2px solid #0BB2FE;
+    color:#0b85ef;
+  }
+
+
+
+  /*跳转页面*/
+  .bh-account_router {
+    display: inline-block;
+    width: 73.13%;
+    height: auto;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-left: 1px solid #e6e6e6;
+    overflow: hidden;
+    margin-top: 114px;
+  }

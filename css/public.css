@@ -1,0 +1,53 @@
+/*通用部分css*/
+body{
+    min-width: 1366px;
+    max-width: 1920px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+
+    }
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    /*超出隐藏*/
+   .hiddens{
+   	overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+   }
+   .flex_question{
+       position: relative;width: 1366px;margin: 0 auto;
+   }
+    /*响应式*/
+/*!*wap端*!*/
+/*@media (max-width:767px){
+body{
+      min-width: 767px;
+      height: 100%;
+    }
+}*/
+
+/*!*ipad端*!*/
+/*@media (min-width:768px){
+
+body{
+      min-width: 768px;
+      height: 100%;
+    }
+}*/
+
+/*!*PC端*!*/
+/*@media (min-width:1024px){
+body{
+      min-width: 1024px;
+      height: 100%;
+    }
+}
+@media (min-width:1366px){
+body{
+      min-width: 1366px;
+      height: 100%;
+    }
+}*/

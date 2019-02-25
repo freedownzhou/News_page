@@ -1,0 +1,30 @@
+.news{
+	width: 957px;
+	height: auto;
+	position: relative;
+	background-color: #FFFFFF;
+	padding: 60px 108px 70px 135px;
+	margin:138px auto 89px;
+}
+.news_allbox{
+	width: 100%;height: auto;border-bottom: 1px solid #E6E6E6;
+}
+.news_twobox{
+	width: 100%;height: auto;position: relative;
+}
+body{
+	background-color: #F3F3F3;
+}
+.news_p{
+	font-size: 16px;
+	font-family:PingFangSC-Regular;
+	color: #333333;
+	text-align: center;
+}
+.news_span{
+		    font-family:PingFangSC-Regular;
+		    font-size:14px;
+		    color:#666666;
+		    margin-top: 2px;
+		    letter-spacing:0.39px;
+		  }

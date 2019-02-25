@@ -1,0 +1,207 @@
+/*总的大盒子*/
+#header{
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	min-width: 1366px;
+    max-width: 1920px;
+}
+@media \0screen\,screen\9 {/* 只支持IE6、7、8 */
+  #app-header{
+    filter:Alpha(opacity=72);
+      background-color:#000000;
+    position: static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+    width: 100%;
+  	height: 82px;
+  	/*border-bottom:1px solid #94cdff;*/
+  }
+  }
+#app-header{
+  width: 100%;
+  height: 82px;
+    /*background-color: rgba(11,133,239,0.72);*/
+  position: relative;
+  /*border-bottom:1px solid #94cdff;*/
+    /*color:#9cd1ff;*/
+}
+/*让两边留距离的盒子*/
+.wrap{
+  width: 87.7%;
+  margin: 0 auto;
+  height: 82px;
+    max-width: 1366px;
+}
+.head_img{
+  width: 100px;
+  height: 45px;
+  margin-top: 18px;
+}
+
+/*ul模块*/
+.cssmenu{
+  float: right;
+  opacity:1;
+  z-index:10;
+  width: 724px;
+
+}
+.cssmenu > ul > li {
+  display:inline-block;
+  position: relative;
+  height: 80px;
+  text-align: center;
+  float: left;
+  margin-left: 50px;
+
+}
+.cssmenu > ul > li:first-child{
+	margin-left: 0;
+}
+.cssmenu ul {
+  list-style-type: none;
+  line-height: 82px;
+  height: 82px;
+}
+.cssmenu > ul > li > a{
+    font-family: "微软雅黑";
+  font-size:16px;
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+
+.cssmenu > ul > li > a:hover{
+    color:#ffffff;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+#else_hover > li > a:hover{
+    color:#0b85ef;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.active{
+    color:#0b85ef;
+    border-bottom: 2px solid #0b85ef;
+}
+.actives{
+    color:#ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+.id_active{
+    color: #0b85ef;
+    border-bottom: 2px solid #0b85ef;
+}
+#id_active{
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+.home_imgtwo {
+    width: 32%;
+  	bottom: 18%;
+    right: 9.6%;
+}
+.home_imgone {
+    margin: 0;
+}
+ #Privacy_box ul{
+ 	padding-left: 111px;
+ }
+
+/*遮罩层*/
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1001;
+    display:none;
+    filter:alpha(opacity=60);
+    background-color: #777;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+
+.blueHeader{color:#9cd1ff;}
+.whiteHeader{border-bottom: 1px solid #e6e6e6;color: #666666;background-color: #fff;}
+
+/*响应式*/
+/*!*wap端*!*/
+/*@media (max-width:767px){*/
+
+/*}*/
+
+/*!*ipad端*!*/
+/*@media (min-width:768px){
+ #header {
+ 	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	min-width: 767px;
+ }
+ .cssmenu {
+    width: 520px;
+    }
+ .cssmenu>ul>li {
+	  margin-left: 15px;
+ }
+
+ .home_imgtwo {
+    width: 31%;
+    float: right;
+    position: absolute;
+    bottom: 32%;
+    right: 9.6%;
+}
+.home_imgone {
+    margin-top: 13%;
+    width: 47%;
+}
+
+}*/
+
+/*!*PC端*!*/
+/*@media (min-width:1024px){
+ #header {
+	min-width: 768px;
+ }
+ .cssmenu>ul>li {
+
+	  margin-left: 25px;
+ }
+ .cssmenu>ul>li:first-child {
+
+	  margin-left: 150px;
+ }
+ .cssmenu {
+    width: 724px;
+    }
+.home_imgtwo {
+    width: 31%;
+    float: right;
+    position: absolute;
+    bottom: 20%;
+    right: 9.6%;
+}
+.home_imgone {
+    margin-top: 11%;
+    width: 47%;
+}
+
+}*/
+
+/*@media (min-width:1366px){
+    .home_imgtwo {
+    width: 32%;
+  	bottom: 20%;
+    right: 9.6%;
+}
+.home_imgone {
+    margin: 0;
+}
+ #Privacy_box ul{
+ 	padding-left: 111px;
+ }
+}*/

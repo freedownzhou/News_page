@@ -1,0 +1,169 @@
+.join_box{
+	width: 100%;
+    height: auto;
+    position: relative;
+}
+/*我们希望*/
+.join_twobox{
+	height: 184px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+/*职位诱惑*/
+.join_threebox{
+	height: 316px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.join_flex{
+	width: 80%;
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.join_flex_left{
+	width: 49%;
+	display: inline-block;
+	border-right: 1px solid #e3e9f0;
+	height: auto;
+}
+.join_flex_right{
+	width: 49%;
+	display: inline-block;
+	height: auto;
+}
+.join_flex p{
+	margin-top: 12px;
+}
+/*招聘详情*/
+.recruitment{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 0;
+
+}
+.recruitment p span{
+	color:#0b85ef;
+}
+.p_left{
+	margin-left: 43.19%;
+}
+/*招聘岗位*/
+.jobs_top{
+	width: 84.85%;
+	height: 46px;
+	position: relative;
+	margin:0 auto;
+	padding-left: 30px;
+	color: #6DAEEA;
+	background-color:rgba(230,243,255,1);
+	margin-top: 24px;
+}
+.jobs_top_span{
+	font-family:PingFangSC-Regular;
+	font-size:20px;
+	letter-spacing:0.56px;
+	text-align:left;
+	line-height: 46px;
+}
+/*折叠板*/
+.callapce{
+	/*padding:20px;
+	border:1px solid #ebeef5;
+	border-radius:4px;*/
+	line-height: 48px;
+	width: 86.85%;
+	position: relative;
+	margin: 0 auto;
+	height: auto;
+	/*--down-lh:48px;
+	--img-down:12px;*/
+}
+.collapse-item{
+	background-color: #fff;
+	border-bottom: 1px solid #ebeef5;
+    color: #303133;
+    font-size: 13px;
+    text-align: justify;
+}
+.collapse-item:first-child{
+	border-top: 1px solid #ebeef5;
+	clear: both;
+}
+.item-hd{
+	position:relative;
+	/*height: var(--down-lh);
+        line-height: var(--down-lh);*/
+        height: 78px;
+        line-height: 78px;
+        cursor: pointer;
+}
+.item-hd .title{
+	display:inline-block;
+	font-family:PingFangSC-Regular;
+	font-size:16px;
+	padding-left: 30px;
+	color:#333333;
+	letter-spacing:0.45px;
+	text-align:left;
+}
+.item-hd .collapse-down{
+	float: right;
+	display:inline-block;
+	margin-right: 8px;
+}
+.item-hd .downImg{
+	/*width:var(--img-down);
+	height:var(--img-down);*/
+	width: 12px;
+	height: 15px;
+	vertical-align: middle;
+	transform:rotate(0deg);
+	transition: all .3s linear;
+}
+.item-hd .downImg.rotate{
+	transform: rotate(90deg);
+	transition: all .3s linear;
+	width: 12px;
+	filter: invert(100%);
+	height: 15px;
+	vertical-align: middle;
+}
+/*隐藏的div*/
+
+.hidden_div{
+	position: relative;
+	width: 43%;
+	line-height:23px;
+	height: auto;
+	vertical-align:top;
+	display: inline-block;
+}
+.hidden_span{
+	font-family:PingFangSC-Regular;
+	font-size:16px;
+	color:#333333;
+	letter-spacing:0.45px;
+	text-align:left;
+}
+.item-mn{
+	width: 100%;
+	position: relative;
+	display: none;
+	box-sizing: border-box;
+	font-size: 13px;
+	color: #303133;
+	height: auto;
+	padding: 0 30px;
+	padding-bottom: 30px;
+}
+.show{
+	/* 这里max-height设置一个足够大的数，但不能太大 */
+	transition-timing-function: ease-in;
+	max-height:400px;
+	padding-bottom: 20px;
+}

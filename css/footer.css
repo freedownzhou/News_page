@@ -1,0 +1,153 @@
+#app-footer{
+    position: relative;
+    width: 100%;
+    height: 461px;
+    background-color: #32325d;
+  font-family: "微软雅黑";
+  }
+#app-footer ul{
+  list-style:none;
+}
+  /*底部2个大盒子*/
+  .footer_onebox{
+     width: 100%;
+    height: 292px;
+    border-bottom: 1px solid #5d5dac;
+  }
+  .footer_twobox{
+    width: 100%;
+    height: 168px;
+    text-align: center;
+    max-width: 1920px;
+
+  }
+  /*底部第一个盒子的链接和文字*/
+  .onebox_first{
+    width: 33.3%;
+    height: 66.7%;
+    float: left;
+    padding-top: 50px;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .footer_spanone{
+    font-family:"微软雅黑";
+    font-size:14px;
+    color:#7878ca;
+    text-align:left;
+  }
+  .onebox_first ul{
+    display: inline-block;
+    list-style:none;
+    width: 100%;
+    padding-left: 83px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*vertical-align: top;*/
+    /*padding-top: 28px;*/
+  }
+.onebox_first p{
+  padding-left: 83px;
+}
+.onebox_first ul li{
+    height: 35px;
+    line-height: 15px;
+    text-align: left;
+    color:#cacaff;
+    width: 100%;
+  }
+  /*超链接*/
+  .botton_a{
+    color:#ffffff;
+  }
+  .onebox_first ul li a{
+    text-decoration: none;
+    font-family:"微软雅黑";
+    font-size:18px;
+    width: 20px;
+    height:20px;
+    color:#cacaff;
+    letter-spacing:0.9px;
+    text-align:left;
+  }
+  .onebox_first ul li a:hover{
+    color:#ffffff;
+  }
+  .onebox_ul{
+    cursor: pointer;
+  }
+  .footer_flex{
+  /*display: flex;*/
+  /*justify-content:space-around;*/
+  /*align-items:center;*/
+      /*display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:-o-flex;*/
+      /*-webkit-justify-content:space-around;-moz-justify-content:space-around;-ms-justify-content:space-around;-o-justify-content:space-around;*/
+      /*-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-o-align-items:center;*/
+  width: 100%;
+    position: relative;
+
+}
+
+  /*最底下div文字*/
+  .buttom_span{
+    font-family:PingFangSC-Regular;
+    font-size:14px;
+    color:#ffffff;
+  }
+  /*底部图片*/
+  .footer_image{
+  	width: 52px;
+  }
+    .nav ul {
+    	width: 95px;
+    }
+    .nav ul li {
+    	float: left;
+    	width: 40px;
+      display: inline-block;
+        margin-left: 5px;
+    	height: 40px;
+    }
+    .nav ul li .fa-twitter:link,
+    .fa-twitter:visited {
+    	display: block;
+    	width: 20px;
+    	height: 20px;
+    	background: url(http://miaolian-webapp.oss-cn-beijing.aliyuncs.com/images/home/f.svg) no-repeat;
+    }
+    .nav ul li .fa-twitter:hover {
+    	background: url(http://miaolian-webapp.oss-cn-beijing.aliyuncs.com/images/home/01.svg) no-repeat;
+    }
+    .nav ul li .fa-google-plus-g:link,
+    .fa-google-plus-g:visited {
+    	display: block;
+    	width: 21px;
+    	height: 20px;
+    	background: url(http://miaolian-webapp.oss-cn-beijing.aliyuncs.com/images/home/03.svg) no-repeat;
+    }
+    .nav ul li .fa-google-plus-g:hover {
+    	background: url(http://miaolian-webapp.oss-cn-beijing.aliyuncs.com/images/home/te_touch.svg) no-repeat;
+    }
+    .nav ul li .fa-pinterest-p:link,
+    .fa-pinterest-p:visited {
+    	display: block;
+    	width: 21px;
+    	height: 20px;
+    	background: url(http://miaolian-webapp.oss-cn-beijing.aliyuncs.com/images/home/02.svg) no-repeat;
+    }
+    .nav ul li .fa-pinterest-p:hover {
+    	background: url(http://miaolian-webapp.oss-cn-beijing.aliyuncs.com/images/home/t_touch.svg) no-repeat;
+    }
+    .nav ul li .fa-facebook-f:link,
+    .fa-facebook-f:visited {
+    	display: block;
+    	width: 21px;
+    	height: 20px;
+    	background: url(http://miaolian-webapp.oss-cn-beijing.aliyuncs.com/images/home/4.svg) no-repeat;
+    }
+    .nav ul li .fa-facebook-f:hover {
+    	background: url(http://miaolian-webapp.oss-cn-beijing.aliyuncs.com/images/home/w_touch.svg) no-repeat;
+    }
+
